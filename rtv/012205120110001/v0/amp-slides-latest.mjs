@@ -1,3 +1,0 @@
-;
-(self.AMP=self.AMP||[]).push({m:1,v:"2205120110001",n:"amp-slides",ev:"0.1",l:!0,f:function(e,l){(()=>{var{hasOwnProperty:l,toString:r}=Object.prototype;self.__AMP_LOG=self.__AMP_LOG||{user:null,dev:null,userForEmbed:null};var s=self.__AMP_LOG;function n(e){return function(e,l){throw new Error("failed to call initLogConstructor")}()}var t="amp-slides",o=class extends e.BaseElement{constructor(e){super(e),(s.user||(s.user=n()),void s.user.win?s.userForEmbed||(s.userForEmbed=n()):s.user).error(t,'No longer available. Use `amp-carousel` with `type="slides"` for an alternative')}};e.registerElement(t,o)})()}});
-//# sourceMappingURL=amp-slides-0.1.mjs.map
