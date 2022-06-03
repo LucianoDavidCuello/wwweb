@@ -479,13 +479,8 @@ var Okno = {
             var cookieStatus = getCookie('cookieStatus');
 
             if(cookieStatus == '') {
-                $body.append('<div id="tmp_container"></div>')
-                var $tmp = $('#tmp_container');
 
-                $tmp.load('assets/api/cookies-popup.html', function(){
-
-                    $body.append($tmp.html());
-                    $tmp.remove();
+                
 
                     var $cookiePopup = $('#modalCookies');
 
@@ -499,7 +494,7 @@ var Okno = {
                         $body.removeClass('modal-at-bottom');
                     });
 
-                });
+                
             }
         },
         counter: function() {

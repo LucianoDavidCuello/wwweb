@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html lang="es" data-cookies-popup="true">
+<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="keywords" content="admin, slack, ticket, support" />
@@ -40,7 +42,7 @@
 <!-- CSS Base -->
 <link async id="theme" rel="stylesheet" href="resources/theme-bottle.css">
 <link async rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
+</head>
 <body class="one-page header-absolute">
 	
 	<!-- Loader -->
@@ -408,7 +410,15 @@
 	<!-- Footer / End -->
 	<!-- Modal -->
 	
-	
+	<!-- Modal / Cookies -->
+<div class="modal modal-bottom fade" id="modalCookies" role="dialog" data-backdrop="false">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center"><span class="icon icon-xs icon-primary"><i class="ti-receipt"></i></span>This website uses cookies to ensure you get the best experience on our website. <a href="#" data-dismiss="modal" class="btn btn-primary btn-filled btn-xs ml-10">OK, I get it!</a></div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="ti-close"></i></button>
+        </div>
+    </div>
+</div>
 	
 	<!-- JS Libraries -->
 	<script src="resources/jquery-1.12.3.min.js"></script>
