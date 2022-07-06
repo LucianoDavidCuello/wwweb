@@ -2689,3 +2689,18 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
 .w-28{
   width: 28px;
 }
+.btn-slack {
+  align-items: center;
+  color: #fff;
+  background-color: #0b5026;
+  border: 1px solid;
+  border-radius: 5px;
+  display: inline-flex;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 44px;
+  justify-content: center;
+  text-decoration: none;
+  width: 168px;
+}
